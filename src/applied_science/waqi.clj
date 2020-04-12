@@ -101,7 +101,7 @@ console.log(\"Waqi connected to browser.\");"))
   {:title {:text "Waqi"
            :font "Helvetica" :color "#333333"
            :fontSize 32 :dy 200 :dx 100
-           :subtitle "Waiting for specs to plot at..."
+           :subtitle "Waiting for specs to plot..."
            :subtitleFontSize 18 :subtitlePadding 25}
    :width 450 :height 450})
 
