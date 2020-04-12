@@ -12,7 +12,7 @@ We have not yet released to clojars, so the recommended installation is with dep
 
 ``` clojure
 applied-science/waqi {:git/url "https://github.com/applied-science/waqi/"
-                      :sha "FIXME"}
+                      :sha "FIXME/3cbdb87aced006e7f1f8606a52e0c9175a3626fe"}
 ```
 
 
