@@ -23,7 +23,8 @@
               v                  (Vega(-Lite) specs,
       [http-kit webserver] <---    as Clojure maps,     ---- [client]
                                 sent via function call)"
-  (:require [hiccup.page :as hp]
+  (:require [clojure.java.browse]
+            [hiccup.page :as hp]
             [jsonista.core :as json]
             [org.httpkit.server :as httpkit]
             [ring.util.response :as ring]))
