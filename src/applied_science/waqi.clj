@@ -28,6 +28,9 @@
             [org.httpkit.server :as httpkit]
             [ring.util.response :as ring]))
 
+;; TODO consider delegating websocket interaction to Funnel:
+;; https://clojureverse.org/t/announcing-the-first-release-of-funnel/6023
+
 (defonce ^{:doc "WebSocket channel for sending Vega specs to the browser."}
   ws-chan (atom nil))
 
